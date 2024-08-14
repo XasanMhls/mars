@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, ;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1 solid #dedbdb;
+}
+
+.logo img {
+    width: 175px;
+    height: 47px;
+}
+
+.language-switch {
+    font-size: 36px;
+    color: #424242;
+    cursor: pointer;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+.language-switch img {
+    width: 40px;
+    height: 40px;
+    margin-right: 22px;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.form-logo {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.form-info a {
+    color: #ff5722;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+
+
+
+}
+
+.form-info {
+    display: flex;
+
+}
+
+.login-form2 {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.role-switch {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.role-button {
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #555;
+}
